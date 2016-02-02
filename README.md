@@ -6,9 +6,9 @@
 自定义TabBar，实现点击按钮实现动画效果（放大后缩小再还原）
 效果还不错欢迎大家点赞，谢谢
 
- ![image](https://github.com/fanwenkai/FKTabBarController/1.jpg)
- ![image](https://github.com/fanwenkai/FKTabBarController/2.jpg)
- ![image](https://github.com/fanwenkai/FKTabBarController/3.jpg)
+ ![image](https://github.com/fanwenkai/FKTabBarController/1.png)
+ ![image](https://github.com/fanwenkai/FKTabBarController/2.png)
+ ![image](https://github.com/fanwenkai/FKTabBarController/3.png)
     
     /** 添加子控制器 */
     UIViewController *hallVC = [[FirstViewController alloc] init];
