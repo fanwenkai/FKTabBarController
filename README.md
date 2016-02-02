@@ -5,7 +5,9 @@
 效果还不错欢迎大家点赞，谢谢
 
 
- /** 添加子控制器 */
+ 
+    
+    /** 添加子控制器 */
     UIViewController *hallVC = [[FirstViewController alloc] init];
     [self tabBarChildViewController:hallVC norImage:[UIImage imageNamed:@"tabBar_essence_icon"] selImage:[UIImage imageNamed:@"tabBar_essence_click_icon"] title:@"essence"];
     
