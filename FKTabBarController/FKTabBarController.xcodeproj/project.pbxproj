@@ -13,6 +13,14 @@
 		FE13AFF61C5A19D200275A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE13AFF41C5A19D200275A5F /* Main.storyboard */; };
 		FE13AFF81C5A19D200275A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE13AFF71C5A19D200275A5F /* Assets.xcassets */; };
 		FE13AFFB1C5A19D200275A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE13AFF91C5A19D200275A5F /* LaunchScreen.storyboard */; };
+		FE13B0071C5A1B5D00275A5F /* CUTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13B0061C5A1B5D00275A5F /* CUTabBarController.m */; };
+		FE13B00A1C5A1D9A00275A5F /* CUTabBarExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13B0091C5A1D9A00275A5F /* CUTabBarExtension.m */; };
+		FEECFA541C6055DE00225B0D /* CUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECFA531C6055DE00225B0D /* CUButton.m */; };
+		FEECFA571C60567500225B0D /* UIView+CUFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECFA561C60567500225B0D /* UIView+CUFrame.m */; };
+		FEECFA5B1C607F5E00225B0D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECFA5A1C607F5E00225B0D /* FirstViewController.m */; };
+		FEECFA5E1C607F6D00225B0D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECFA5D1C607F6D00225B0D /* SecondViewController.m */; };
+		FEECFA611C607F7900225B0D /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECFA601C607F7900225B0D /* ThreeViewController.m */; };
+		FEECFA641C607F8700225B0D /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECFA631C607F8700225B0D /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		FE13AFF71C5A19D200275A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE13AFFA1C5A19D200275A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE13AFFC1C5A19D200275A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE13B0051C5A1B5D00275A5F /* CUTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUTabBarController.h; sourceTree = "<group>"; };
+		FE13B0061C5A1B5D00275A5F /* CUTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUTabBarController.m; sourceTree = "<group>"; };
+		FE13B0081C5A1D9A00275A5F /* CUTabBarExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUTabBarExtension.h; sourceTree = "<group>"; };
+		FE13B0091C5A1D9A00275A5F /* CUTabBarExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUTabBarExtension.m; sourceTree = "<group>"; };
+		FEECFA521C6055DE00225B0D /* CUButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUButton.h; sourceTree = "<group>"; };
+		FEECFA531C6055DE00225B0D /* CUButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUButton.m; sourceTree = "<group>"; };
+		FEECFA551C60567500225B0D /* UIView+CUFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CUFrame.h"; sourceTree = "<group>"; };
+		FEECFA561C60567500225B0D /* UIView+CUFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CUFrame.m"; sourceTree = "<group>"; };
+		FEECFA591C607F5E00225B0D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FEECFA5A1C607F5E00225B0D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FEECFA5C1C607F6D00225B0D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FEECFA5D1C607F6D00225B0D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FEECFA5F1C607F7900225B0D /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		FEECFA601C607F7900225B0D /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		FEECFA621C607F8700225B0D /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		FEECFA631C607F8700225B0D /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,8 @@
 		FE13AFEA1C5A19D200275A5F /* FKTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				FEECFA581C607F2C00225B0D /* Controller */,
+				FE13B0041C5A1B3000275A5F /* CusTabBarController */,
 				FE13AFEE1C5A19D200275A5F /* AppDelegate.h */,
 				FE13AFEF1C5A19D200275A5F /* AppDelegate.m */,
 				FE13AFF11C5A19D200275A5F /* ViewController.h */,
@@ -77,6 +103,36 @@
 				FE13AFEC1C5A19D200275A5F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE13B0041C5A1B3000275A5F /* CusTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FEECFA521C6055DE00225B0D /* CUButton.h */,
+				FEECFA531C6055DE00225B0D /* CUButton.m */,
+				FEECFA551C60567500225B0D /* UIView+CUFrame.h */,
+				FEECFA561C60567500225B0D /* UIView+CUFrame.m */,
+				FE13B0051C5A1B5D00275A5F /* CUTabBarController.h */,
+				FE13B0061C5A1B5D00275A5F /* CUTabBarController.m */,
+				FE13B0081C5A1D9A00275A5F /* CUTabBarExtension.h */,
+				FE13B0091C5A1D9A00275A5F /* CUTabBarExtension.m */,
+			);
+			path = CusTabBarController;
+			sourceTree = "<group>";
+		};
+		FEECFA581C607F2C00225B0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEECFA591C607F5E00225B0D /* FirstViewController.h */,
+				FEECFA5A1C607F5E00225B0D /* FirstViewController.m */,
+				FEECFA5C1C607F6D00225B0D /* SecondViewController.h */,
+				FEECFA5D1C607F6D00225B0D /* SecondViewController.m */,
+				FEECFA5F1C607F7900225B0D /* ThreeViewController.h */,
+				FEECFA601C607F7900225B0D /* ThreeViewController.m */,
+				FEECFA621C607F8700225B0D /* FourViewController.h */,
+				FEECFA631C607F8700225B0D /* FourViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEECFA5E1C607F6D00225B0D /* SecondViewController.m in Sources */,
 				FE13AFF31C5A19D200275A5F /* ViewController.m in Sources */,
 				FE13AFF01C5A19D200275A5F /* AppDelegate.m in Sources */,
 				FE13AFED1C5A19D200275A5F /* main.m in Sources */,
+				FEECFA571C60567500225B0D /* UIView+CUFrame.m in Sources */,
+				FEECFA541C6055DE00225B0D /* CUButton.m in Sources */,
+				FE13B0071C5A1B5D00275A5F /* CUTabBarController.m in Sources */,
+				FE13B00A1C5A1D9A00275A5F /* CUTabBarExtension.m in Sources */,
+				FEECFA5B1C607F5E00225B0D /* FirstViewController.m in Sources */,
+				FEECFA641C607F8700225B0D /* FourViewController.m in Sources */,
+				FEECFA611C607F7900225B0D /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +362,7 @@
 				FE13B0011C5A19D200275A5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
