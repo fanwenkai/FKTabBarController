@@ -1,6 +1,8 @@
 # FKTabBarController
 分类导航控制器、自定义UITabBarController
 
+测试环境：Xcode 7 iOS9
+
 自定义TabBar，实现点击按钮实现动画效果（放大后缩小再还原）
 效果还不错欢迎大家点赞，谢谢
 
