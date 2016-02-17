@@ -66,6 +66,10 @@ static CGFloat const btnH = 49;
         [item addTarget:self action:@selector(buttonClickAction:) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:item];
+        if (idx == 0) {
+            self.seletBtn = item;
+            item.selected = YES;
+        }
         
     }];
     
